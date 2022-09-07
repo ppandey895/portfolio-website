@@ -40,12 +40,6 @@ const Header = ({ setNav }) => {
 					  <FontAwesomeIcon icon={faBirthdayCake} />
 					</a>
 				</div>
-				<div className="nav-item" onClick={ (e) => getNavItem(e) }>
-					<a href="">
-						Contact
-						<FontAwesomeIcon icon={faMailBulk} />
-					</a>
-				</div>
 			</div>
 		</motion.div>
 	)
