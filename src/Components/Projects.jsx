@@ -85,7 +85,7 @@ const Projects = ({ setNav }) => {
 							</p>
 						</li>
 						<li>
-							<a href="https://github.com/ppandey895/Neural-Networks/tree/main/NN_XOR" target="blank>
+							<a href="https://github.com/ppandey895/Neural-Networks/tree/main/NN_XOR" target="blank">
 								<h4><FontAwesomeIcon icon={faLink}></FontAwesomeIcon> EX-OR Logic</h4>
 							</a>
 							<p>
