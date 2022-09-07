@@ -14,7 +14,7 @@ const About = ({ setNav }) => {
 				<FontAwesomeIcon icon={faArrowLeft} />
 			</button>
 			<h1>About Me.</h1>
-			<img src="../../inst_img.png" alt="" width="200" />
+			<img src="https://i.ibb.co/LRV1ysD/profile.jpg" alt="" width="200" />
 			<hr />
 			<div>
 				<p>
