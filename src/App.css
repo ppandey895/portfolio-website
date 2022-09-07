@@ -4,7 +4,7 @@
   --theme: #79C785;
   --d-theme: #439053;
 }
-
+/*#dff3e0*/
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -374,6 +374,36 @@ svg .meter {
 
 /*Interests JSX Styling Ends*/
 
+
+/*Projects JSX Styling Begins*/
+
+.home-projects .projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-projects .projects h3 {
+  background: var(--cream);
+  color: var(--theme);
+  width: 75vw;
+  padding: 1rem;
+  box-shadow: 4px 6px 0 var(--d-theme);
+  margin-top: 3rem;
+}
+
+.projects div ol li {
+  width: 70vw;
+  margin-bottom: 2rem;
+}
+
+.projects div ol li p {
+  margin-left: 1rem;
+}
+
+/*Projects JSX Styling Ends*/
+
+
 /*About JSX Styling Begins*/
 
 .home-about p {
@@ -404,6 +434,36 @@ svg .meter {
 
 /*About JSX Styling Ends*/
 
+/*Contact JSX Styling Starts*/
+
+.home-contact .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+.home-contact .links a {
+    transform: skew(-4deg) rotate(-4deg);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: transform 0.5s ease;
+}
+
+.links a:hover {
+  transform: skew(-4deg) rotate(-4deg) scale(1.2);
+}
+
+.links a img {
+  width: 10rem;
+  transition: transform 0.5s ease;
+}
+
+/*Contact JSX Styling Ends*/
+
 @media (max-width: 768px) {
   html {
     font-size: 14px;
@@ -420,6 +480,16 @@ svg .meter {
 
   .filler {
     height: 140px;
+  }
+
+  .home-contact .links {
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .home-contact .links a img {
+    width: 6rem;
   }
 }
 
