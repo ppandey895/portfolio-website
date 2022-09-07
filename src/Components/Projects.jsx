@@ -22,10 +22,10 @@ const Projects = ({ setNav }) => {
 					</h3>
 					<ol>
 						<li>
-							<a href="https://rock-paper-scissors-rps.netlify.app" target="blank">
-								<h4><FontAwesomeIcon icon={faLink}></FontAwesomeIcon> Rock Paper Scissors</h4>
+							<a href="https://ppandey895.github.io/HeroPedia" target="blank">
+								<h4><FontAwesomeIcon icon={faLink}></FontAwesomeIcon> HeroPedia</h4>
 							</a>
-							<p>Tech Stack - CSS3, JavaScript ES6, jQuery</p>
+							<p>Tech Stack - ReactJS, CSS3, Framer Motion, SuperHeroAPI</p>
 						</li>
 						<li>
 							<a href="https://nasa-api-website.netlify.app" target="blank">
@@ -34,10 +34,10 @@ const Projects = ({ setNav }) => {
 							<p>Tech Stack - CSS3, JavaScript ES6, NASA API</p>
 						</li>
 						<li>
-							<a href="https://ppandey895.github.io/HeroPedia" target="blank">
-								<h4><FontAwesomeIcon icon={faLink}></FontAwesomeIcon> HeroPedia</h4>
+							<a href="https://rock-paper-scissors-rps.netlify.app" target="blank">
+								<h4><FontAwesomeIcon icon={faLink}></FontAwesomeIcon> Rock Paper Scissors</h4>
 							</a>
-							<p>Tech Stack - ReactJS, CSS3, Framer Motion, SuperHeroAPI</p>
+							<p>Tech Stack - CSS3, JavaScript ES6, jQuery</p>
 						</li>
 					</ol>
 				</div>
@@ -74,7 +74,7 @@ const Projects = ({ setNav }) => {
 					</h3>
 					<ol>
 						<li>
-							<a href="https://github.com/ppandey895/Neural-Networks/tree/main/Perceptron">
+							<a href="https://github.com/ppandey895/Neural-Networks/tree/main/Perceptron" target="blank">
 								<h4><FontAwesomeIcon icon={faLink}></FontAwesomeIcon> Perceptron</h4>
 							</a>
 							<p>
@@ -85,7 +85,7 @@ const Projects = ({ setNav }) => {
 							</p>
 						</li>
 						<li>
-							<a href="https://github.com/ppandey895/Neural-Networks/tree/main/NN_XOR">
+							<a href="https://github.com/ppandey895/Neural-Networks/tree/main/NN_XOR" target="blank>
 								<h4><FontAwesomeIcon icon={faLink}></FontAwesomeIcon> EX-OR Logic</h4>
 							</a>
 							<p>
