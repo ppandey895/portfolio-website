@@ -495,13 +495,6 @@ svg .meter {
 
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --theme: #439053;
-    --d-theme: #79C785;
-  }
 
-  button {
-    background-color: var(--cream);
-  }
 }
 
